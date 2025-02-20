@@ -1,4 +1,4 @@
-# Text Processing of Public Policy Data from the Lombardy Region
+#Research project on public environment and health public policy data from the Lombardy Region 2024-2025
 
 **Author:** Sandra Mickwitz  
 **Email:** sandra.mickwitz01@icatt.it  
