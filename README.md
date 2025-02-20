@@ -36,20 +36,20 @@ The output format of the sentence splitted files, was csv and later transformed 
   - Total: **20 policies**
 
 ## Preprocessing Steps
-Once the policies had been selected, with this script: 
+Once the policies had been selected, with this script, was run through the destination folder of where the pdf policy documents should be downloaded to.
 ```bash
-bash ./burlexport.sh 2011 1 2 
+./burlexport.sh 2011 1 2 
 ```
 the following script was executed in each folder containing the policies for each year:
 ```bash
-bash ./pdf2policy.sh
+./pdf2policy.sh
 ```
 The reason for this script is that each PDF document with the indicated `pdf_id` contains multiple policies. 
 The script helps separate policies that were not specifically targeted from the relevant sector policies.
 
 The following script was used to transform the pdf chunked policies into .txt files for sentence splitting. 
 ```bash
-bash ./pdft2text.sh
+./pdft2text.sh
 ```
 ### **Script Execution and Review**
 - The script creates a new subfolder containing the chunked policies.
