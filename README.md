@@ -36,7 +36,7 @@ The output format of the sentence splitted files, was csv and later transformed 
   - Total: **20 policies**
 
 ## Preprocessing Steps
-Once the policies had been selected, with this script, was run through the destination folder of where the pdf policy documents should be downloaded to.
+Once the policies had been selected, this script was run through the destination folder of where the pdf policy documents should be downloaded to.
 ```bash
 ./burlexport.sh 2011 1 2 
 ```
