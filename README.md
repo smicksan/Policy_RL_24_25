@@ -49,7 +49,7 @@ The script helps separate policies that were not specifically targeted from the 
 
 The following script was used to transform the pdf chunked policies into .txt files for sentence splitting. 
 ```bash
-./pdft2text.sh
+./pdf2text.sh
 ```
 ### **Script Execution and Review**
 - The script creates a new subfolder containing the chunked policies.
