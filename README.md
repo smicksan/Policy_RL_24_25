@@ -1,0 +1,58 @@
+# Text Processing of Public Policy Data from the Lombardy Region
+
+**Author:** Sandra Mickwitz  
+**Email:** sandra.mickwitz01@icatt.it  
+**Institution:** Università Cattolica del Sacro Cuore  
+**Date:** 19th of February 2025  
+
+## Introduction
+This repository contains cleaned and pre-processed data for research on public environment and health policy in the Lombardy Region. 
+Data was collected 17th of February 2025. 
+(In PROGRESS, not UPLOADED YET) The repository also contains a notebook with all the steps needed to preprocess the policy corpus for annotation. 
+
+## Dataset Description
+40 public policies from the Regione Lombardia from the years 2012, 2013, and 2014 have been mined with a script from the following website: 
+[Consultazione Burl](https://www.consultazioniburl.servizirl.it/ConsultazioneBurl/).
+
+### **Policy Selection per Year**
+- **2012:**
+  - Sectors selected:
+    - D.G. Sistemi verdi e paesaggio (1)
+    - D.G. Sanita (1)
+    - D.G. Ambiente, energia e reti (3)
+  - Total: **5 policies**
+- **2013:**
+  - Sectors selected:
+    - D.G. Sanita (6)
+    - D.G. Ambiente, energia e reti (11)
+  - Total: **15 policies**
+- **2014:**
+  - Sectors selected:
+    - D.G. Sanita (2)
+    - D.G. Ambiente, energia e reti (18)
+  - Total: **20 policies**
+
+## Preprocessing Steps
+Once the policies had been selected, the following script was executed in each folder containing the policies for each year:
+```bash
+bash ./pdf2policy.sh
+```
+The reason for this script is that each PDF document with the indicated `pdf_id` contains multiple policies. 
+The script helps separate policies that were not specifically targeted from the relevant sector policies.
+
+### **Script Execution and Review**
+- The script creates a new subfolder containing the chunked policies.
+- The single files were manually reviewed to filter out policies that did not meet the targeted sector's requirements.
+
+### **Review Summary**
+- **2012:**
+  - Initial PDF documents: **2**
+  - Documents after chunking: **25** (manually reviewed to disregard non-targeted policies)
+- **2013:**
+  - Initial PDF documents: **14**
+  - Documents after chunking: **113** (manually reviewed to disregard non-targeted policies)
+- **2014:**
+  - Initial PDF documents: **13**
+  - Documents after chunking: **109** (manually reviewed to disregard non-targeted policies)
+
+This dataset provides a structured approach to public policy extraction and preprocessing for further annotation and analysis.
