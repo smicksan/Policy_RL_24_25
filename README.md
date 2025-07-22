@@ -53,16 +53,3 @@ The following script was used to transform the pdf chunked policies into .txt fi
 ### **Script Execution and Review**
 - The script creates a new subfolder containing the chunked policies.
 - The single files were manually reviewed to filter out policies that did not meet the targeted sector's requirements.
-
-### **Review Summary**
-- **2012:**
-  - Initial PDF documents: **2**
-  - Documents after chunking: **25** (manually reviewed to disregard non-targeted policies)
-- **2013:**
-  - Initial PDF documents: **14**
-  - Documents after chunking: **113** (manually reviewed to disregard non-targeted policies)
-- **2014:**
-  - Initial PDF documents: **13**
-  - Documents after chunking: **109** (manually reviewed to disregard non-targeted policies)
-
-This dataset provides a structured approach to public policy extraction and preprocessing for further annotation and analysis.
