@@ -1,9 +1,8 @@
-## Research project on public environment and health public policy data from the Lombardy Region 2024-2025
+## Research project 2024-2025 on public environment and health public policy data from the Lombardy Region 
 
 **Author:** Sandra Mickwitz  
 **Email:** sandra.mickwitz01@icatt.it  
 **Institution:** Università Cattolica del Sacro Cuore  
-**Date:** 19th of February 2025  
 
 ## Introduction
 This repository contains cleaned and pre-processed data for research on public environment and health policy in the Lombardy Region. 
