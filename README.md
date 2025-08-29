@@ -6,7 +6,7 @@
 
 ## Introduction
 This repository contains cleaned and pre-processed data for research on public environment and health policy in the Lombardy Region. 
-Data was collected 17th of February 2025. The pre-processing steps outlined here explain how to download data from the BURL platform and prepare it for use with different classification models.
+Data was collected 17th of February 2025. The pre-processing steps outlined here explain how to download data from the BURL platform and prepare it for use with different classification models. The notebooks tutorials will be made available shortly. 
  
 Text to sentence splitter using heuristic algorithm by Philipp Koehn and Josh Schroeder has been used and can be found here https://github.com/mediacloud/sentence-splitter/blob/develop/README.rst. 
 The output format of the sentence splitted files, was csv and later transformed into Excel, the final data set in csv format can be found in the Dataset directory. 
