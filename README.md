@@ -34,7 +34,7 @@ The output format of the sentence splitted files, was csv and later transformed 
   - Total: **20 policies**
 
 ## Preprocessing Steps
-Once the policies had been selected, with this script, was run through the destination folder of where the pdf policy documents should be downloaded to.
+Create a folder in your directory and place the burlexport.sh script in the newly created directory. Run the script with the desired year and weeks. The files in pdf will automatically be downloaded in a new sub directory for each year. 
 ```bash
 ./burlexport.sh 2011 1 2 
 ```
