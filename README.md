@@ -43,3 +43,4 @@ The following script was used to transform the pdf policies into .txt files for 
 ```bash
 ./pdf2text.sh
 ```
+## Jupter Notebook tutorial for data cleaning and sentence splitting will be uploaded 
