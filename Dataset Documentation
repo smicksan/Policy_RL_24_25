@@ -2,26 +2,26 @@
 
 ## Overview
 This repository contains a dataset available in two formats:
-- **Excel (.xlsx)**
+- **Excel (.csv)**
 - **PDF (.pdf)**
 
 ## Dataset Details
 - **Name**: BURL 
 - **Source**: https://www.consultazioniburl.servizirl.it/ConsultazioneBurl/
-- **Description**: This dataset contains public environment and health policy from Regione Lombardia from year 2012,2013,2014 
-- **Date of Collection**: [2025-02-17]
-- **Number of Records**: [40 pdf]
+- **Description**: This dataset contains public environment and health policy from Regione Lombardia from year 2018,2019,2020 
+- **Date of Collection**: [2025-09-04]
+- **Number of Records**: [160 pdf]
 - **File Size**:
   - PDF: [File size]
   - Excel: [File size]
 
 ## File Structure
-### **Excel File (.xlsx)**
+### **Excel File (.csv)**
 1 sheet per Excel file:
-- **Sheet 1**: column headers [sentenceID] - [sentence] - [value]
+- **Sheet 1**: column headers [sentence] - [value]
 
 ### **PDF File (.pdf)**
-Chunked policy 
+original policy document 
 
 ## License
 https://www.bollettino.regione.lombardia.it/wps/portal/site/BURL/DettaglioRedazionale/redazione-e-contatti/informazioni-sul-sito/note-legali
