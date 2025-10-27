@@ -13,7 +13,7 @@ The output format of the sentence splitted files, was csv and later transformed 
 
 ## Dataset Description
 120 public policies from the Regione Lombardia from the years 2018, 2019, and 2020 have been manually downloaded from the following website: 
-[Consultazione Burl](https://www.consultazioniburl.servizirl.it/ConsultazioneBurl/).
+[Consultazione Burl](https://www.consultazioniburl.servizirl.it/ricerca/semantica).
 
 Following filters were applied through the semantic search:
 **Direzione** this filter indicates the policy type 
